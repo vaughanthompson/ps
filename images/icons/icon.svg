@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0079a2;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #a6cce6;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="144" y="152.67" width="48" height="39.33"/>
+  <rect class="cls-1" x="144" y="104.24" width="48" height="47.48"/>
+  <rect class="cls-1" x="144" y="88.91" width="48" height="14.38"/>
+  <rect class="cls-1" x="144" y="71.3" width="48" height="16.65"/>
+  <rect class="cls-1" x="144" y="41.59" width="48" height="28.75"/>
+  <rect class="cls-1" x="144" width="48" height="40.64"/>
+  <rect class="cls-1" x="50.21" y="152.67" width="92.84" height="39.33"/>
+  <rect class="cls-1" x="68.77" y="88.91" width="74.27" height="14.38"/>
+  <polygon class="cls-1" points="124.48 65.06 124.48 58.66 50.21 58.66 50.21 70.34 143.05 70.34 143.05 65.06 124.48 65.06"/>
+  <rect class="cls-1" x="50.21" width="92.84" height="40.64"/>
+  <rect class="cls-1" x="50.21" y="121.21" width="74.27" height="13.54"/>
+  <rect class="cls-1" x="68.77" y="104.24" width="5.77" height="16.01"/>
+  <rect class="cls-1" x="0" y="152.67" width="49.25" height="39.33"/>
+  <rect class="cls-1" x="0" y="135.71" width="49.25" height="16.01"/>
+  <rect class="cls-1" x="0" y="121.21" width="49.25" height="13.54"/>
+  <rect class="cls-1" x="0" y="104.24" width="49.25" height="16.01"/>
+  <rect class="cls-1" x="0" y="71.3" width="49.25" height="31.99"/>
+  <rect class="cls-1" x="0" y="58.66" width="49.25" height="11.69"/>
+  <rect class="cls-1" x="0" y="41.59" width="49.25" height="16.11"/>
+  <rect class="cls-1" x="0" width="49.25" height="40.64"/>
+  <polygon class="cls-3" points="75.5 120.25 125.44 120.25 125.44 120.89 125.43 120.89 125.43 135.07 125.44 135.07 125.44 135.71 50.21 135.71 50.21 151.72 143.05 151.72 143.05 104.24 75.5 104.24 75.5 120.25"/>
+  <polygon class="cls-2" points="50.21 120.25 67.82 120.25 67.82 87.95 143.05 87.95 143.05 71.3 50.21 71.3 50.21 120.25"/>
+  <polygon class="cls-2" points="50.21 57.7 125.43 57.7 125.43 64.1 143.05 64.1 143.05 41.59 50.21 41.59 50.21 57.7"/>
+</svg>
