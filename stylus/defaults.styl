@@ -1,0 +1,239 @@
+/*!
+*
+*
+*
+*
+* start custom stylesheets
+*
+*
+*
+*
+*
+*/
+
+
+// vars
+brand0 = rgba(0,41,51,1.0) //#002933
+brand1 = rgba(0,121,162,1.0) //#0079a2
+brand2 = rgba(166,204,230,1.0) //#a6cce6
+brand3 = rgba(249,163,26,1.0) //#f9a31a
+brand4 = rgba(56,182,233,1.0) //38b6e9
+brand5 = rgba(100,101,101,1.0) //646565
+brand6 = rgba(152,201,60,1.0) //98c93c
+
+brand2Alp50 = rgba(0,121,162,0.5)
+
+
+// sec1 - monotone
+sec1base = rgba(245,245,245.1.0)
+sec1mid = rgba(238,238,238,1.0)
+sec1fore = rgba(229,229,229,1.0)
+sec1dark = rgba(128,128,128,1.0)
+sec1darker = rgba(255,255,255,1.0)
+
+// sec2 - purple
+sec2base = rgba(0,0,0.1.0)
+sec2mid = rgba(255,250,250,1.0)
+sec2fore = rgba(0,0,0,1.0)
+sec2dark = rgba(192,0,0,1.0)
+sec2darker = rgba(153,100,100,0.6)
+
+// sec3 - blue
+sec3base = rgba(26,26,26,1.0)
+sec3mid = rgba(250,250,255,1.0)
+sec3fore = rgba(0,0,0,1.0)
+sec3dark = rgba(141,164,181,1.0)
+sec3darker = rgba(119,142,165,0.6)
+
+// sec4 - green
+sec4base = rgba(238,246,237.1.0)
+sec4mid = rgba(250,250,250,1.0)
+sec4fore = rgba(221,238,219,1.0)
+sec4dark = rgba(117,117,117,1.0)
+sec4darker = rgba(46,46,46,0.5)
+
+white = rgba(255,255,255,1.0)
+whiteAlp90 = rgba(255,255,255,0.9)
+whiteAlp75 = rgba(255,255,255,0.75)
+whiteAlp50 = rgba(255,255,255,0.5)
+whiteAlp25 = rgba(255,255,255,0.25)
+whiteAlp15 = rgba(255,255,255,0.15)
+whiteAlp10 = rgba(255,255,255,0.1)
+whiteAlp07 = rgba(255,255,255,0.07)
+whiteAlp05 = rgba(255,255,255,0.05)
+
+black = rgba(0,0,0,1.0)
+blackAlp90 = rgba(0,0,0,0.90)
+blackAlp75 = rgba(0,0,0,0.75)
+blackAlp65 = rgba(0,0,0,0.65)
+blackAlp55 = rgba(0,0,0,0.55)
+blackAlp50 = rgba(0,0,0,0.5)
+blackAlp25 = rgba(0,0,0,0.25)
+blackAlp10 = rgba(0,0,0,0.1)
+blackAlp5 = rgba(0,0,0,0.05)
+
+halfDark = rgba(0,0,0,0.45)
+lightGrey = rgba(222,222,222,1.0)
+mainBG = rgba(245,245,245,1.0)
+
+
+
+padXL = 7vw
+padL = 5vw
+padM = 3vw
+padStd = 1.8vw
+padXS = 1.5vw
+padXXS = 0.8vw
+
+marXL = 11vw
+marL = 5vw
+marM = 3vw
+marStd = 1.8vw
+marXS = 1.5vw
+marXXS = 0.8vw
+
+
+
+fontStack = "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+//responsive breakpoint & media queries
+mBreakPoint = 750px
+tBreakPoint = 1100px
+sdBreakPoint = 1200px
+dBreakPoint = 1500px
+lgBreakPoint = 1900px
+
+phoneRule = "screen and (max-width: mBreakPoint )"
+tabletRule = "screen and (min-width: mBreakPoint) and (max-width: tBreakPoint )"
+desktopRule = "screen and (min-width: tBreakPoint) and (max-width: dBreakPoint )"
+lgdesktopRule = "screen and (min-width: dBreakPoint)"
+
+smallDesktop = "screen and (min-width: mBreakPoint) and (max-width: sdBreakPoint )"
+
+
+mtrigger = "screen and (max-width: tBreakPoint )"
+ttrigger = "screen and (min-width: mBreakPoint )"
+dtrigger = "screen and (min-width: tBreakPoint )"
+
+phLandscape = "screen and (max-width: mBreakPoint) and (orientation: landscape)"
+tbLandscape = "screen and (min-width: mBreakPoint) and (max-width: tBreakPoint) and (orientation: landscape)"
+
+ie = "all and (-ms-high-contrast: none), (-ms-high-contrast: active)"
+
+$hideItAll = none !important
+
+// responsive logos
+logoDimens = 40vw
+
+
+// misc blocks
+marginNo = @block {
+    margin: 0
+}
+marginM = @block {
+    margin-bottom: 2vh
+}
+marginL = @block {
+    margin-left: 2vw
+}
+marginR = @block {
+    margin-right: 2vw
+}
+marginT = @block {
+    margin-bottom: 4vh
+}
+marginBT = @block {
+    margin-bottom: 1.5vh
+}
+marginVT = @block {
+    margin-top: 2vh
+    margin-bottom: 2vh
+}
+marginALL = @block {
+    margin: 2vh
+}
+wh100 = @block {
+    width:100%
+    height:100%
+}
+test = @block {
+    border:1px solid cyan
+}
+borderBtm = @block {
+    border-bottom: 1px solid brand1
+}
+
+// heights
+fullH = 100vh
+largeH = 85vh
+halfH = 50vh
+smallH = 25vh
+
+navHeight = 8vh
+navHeightL = 11vh
+navSpacer = 10vh
+navSpacerL = 15vh
+
+
+
+// basic defaults
+html, body
+    width: 100%
+    height: 100%
+    font-family: fontStack
+body
+    font-size: 16px
+    // background: linear-gradient(top, white, brand1)
+body
+    background-color: white
+    color: brand0
+
+
+hr
+    border: none
+    border-bottom: 1px solid brand0
+    margin:0
+
+hr.small
+    border-bottom: 3px solid brand2 !important
+    width:100px 
+.reverse hr
+    border-bottom: 1px solid white
+
+.noPad
+    padding: 0 !important
+// blend modes
+
+.nowrap 
+    text-wrap: nowrap
+
+.noPadBottom
+    padding-bottom: 0 !important
+.noPadTop
+    padding-top: 0 !important
+.noPadRight
+    padding-right: 0 !important
+.noPadLeft
+    padding-left: 0 !important
+
+.bgPosBottom
+    background-position: -1px 100%
+
+
+span.spacer
+    display: block
+span.spacer5
+    height: 5vh
+span.spacer7
+    height: 7vh
+span.spacer10
+    height: 10vh
+span.spacer15
+    height: 15vh
+span.spacer20
+    height: 20vh
+span.spacer25
+    height: 25vh
+
+.centerMe
+    margin: 0px auto

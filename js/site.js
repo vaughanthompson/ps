@@ -56,7 +56,7 @@
                 $('header.sticky').animate({opacity: "hide"}, {queue : false, duration:250});
             }
         },
-            offset: '5%'
+            offset: '25%'
         })
 
 
