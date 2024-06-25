@@ -321,14 +321,16 @@ div.insetContent > div
 div.innerContent
     z-index: 200
     display: flex
-    flex-wrap: nowrap
+    flex-wrap: wrap
     width: 100%
     @media ttrigger
         column-gap: 5vw
         justify-content: space-between
+        
 div.innerContent > section.vw45
     @media dtrigger
         flex: 1 1 45%
+        flex-wrap: nowrap
 div.innerContent > section.vw40
     @media dtrigger
         flex: 0 0 40%
