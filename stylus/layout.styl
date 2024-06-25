@@ -321,7 +321,7 @@ div.insetContent > div
 div.innerContent
     z-index: 200
     display: flex
-    flex-wrap: wrap
+    flex-wrap: nowrap
     width: 100%
     @media ttrigger
         column-gap: 5vw
@@ -375,6 +375,7 @@ main div.sec1 div.container
 
 div.sec2 div.container
     background-color: brand1
+    margin-top: -1px
 div.sec3 div.container
     background-color: brand1
 div.sec4
@@ -490,3 +491,9 @@ div.sec3
     div.insetContent,
     div.insetContent2
         padding: padXL*2.5 marXL padXL*2.5 marXL
+
+// large desktop
+@media lgdesktopRule
+    main > div:not(.base) div.innerContent
+        max-width: 1700px
+        margin: 0px auto
